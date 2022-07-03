@@ -6,6 +6,7 @@ import hboLogo from "../images/hboLogo.png"
 import huluLogo from "../images/huluLogo.png"
 import f1tvLogo from "../images/f1Logo.png"
 import primeLogo from "../images/primeLogo.png"
+import youtubetvLogo from "../images/youtubetvLogo.png"
 
 const Services =  [
     {
@@ -47,6 +48,11 @@ const Services =  [
         name: "Prime",
         url: "https://smile.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video",
         logo: primeLogo
+    },
+    {
+        name: "youtubeTV",
+        url: "https://tv.youtube.com/welcome/",
+        logo: youtubetvLogo
     },
 ]
 
