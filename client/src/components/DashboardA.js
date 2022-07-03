@@ -25,7 +25,7 @@ const DashboardA = () => {
                                 <div key ={index}>
                                     <a target="_blank" rel="noopener noreferrer"
                                        href = {service.url}>
-                                        <img src={service.logo} className="animate__animated animate__zoomIn w-52 rounded drop-shadow-2xl opacity-70 hover:opacity-100"/>
+                                        <img src={service.logo} className="animate__animated animate__zoomIn w-48 rounded drop-shadow-2xl opacity-70 hover:opacity-100"/>
                                     </a>
                                 </div>
                             )
