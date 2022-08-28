@@ -6,6 +6,7 @@ import hboLogo from "../images/hboLogo.png"
 import huluLogo from "../images/huluLogo.png"
 import f1tvLogo from "../images/f1Logo.png"
 import primeLogo from "../images/primeLogo.png"
+import peacockLogo from "../images/peacockLogo.png"
 
 const Services =  [
     {
@@ -33,11 +34,11 @@ const Services =  [
         url: "https://play.hbomax.com",
         logo: hboLogo
     },
-    {
-        name: "Hulu",
-        url: "https://www.hulu.com",
-        logo: huluLogo
-    },
+    // {
+    //     name: "Hulu",
+    //     url: "https://www.hulu.com",
+    //     logo: huluLogo
+    // },
     {
         name: "F1",
         url: "https://www.f1tv.com",
@@ -47,6 +48,11 @@ const Services =  [
         name: "Prime",
         url: "https://smile.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video",
         logo: primeLogo
+    },
+    {
+        name: "Peacock",
+        url: "https://www.peacocktv.com/",
+        logo: peacockLogo
     },
 ]
 
