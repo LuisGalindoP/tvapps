@@ -21,11 +21,11 @@ const Services =  [
     },
     {
         name: "FuboTv",
-        url: "https://www.fubotv.com",
+        url: "https://www.fubo.tv/home",
         logo: fubotvLogo
     },
     {
-        name: "Youtube",
+        name: "Youtube",+
         url: "https://www.youtube.com",
         logo: youtubeLogo
     },

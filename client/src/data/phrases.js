@@ -19,6 +19,8 @@ const Phrases = [
     {phrase: "What's Forrest Gump's password? 1forrest1."},
     {phrase: "What did the ocean say to the beach? Nothing, it just waved."},
     {phrase: "What happens when a snowman throws a tantrum? He has a meltdown."},
+    {phrase: "Gianna: Clean your room!!!!!."},
+    {phrase: "Camila: Eat your veggies!!!"}
 ]
 
 export default Phrases;

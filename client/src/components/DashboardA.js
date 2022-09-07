@@ -6,12 +6,8 @@ import Services from '../data/services'
 import Phrases from '../data/phrases'
 import SearchNetflix from '../components/searchNetflix'
 
-
-
 let randomPhrase = Math.floor(Math.random()*20);
 const today = new Date();
-
-
 
 const DashboardA = (props) => {
 
@@ -19,9 +15,8 @@ const DashboardA = (props) => {
 
     return (
         <div>
-            <div className="bg-gradient-to-r from-indigo-900 via-purple-500 to-pink-900 ...   ">
-                
-                <div className='h-screen flex-col items-center justify-center pt-96'>
+            <div className="bg-gradient-to-r from-indigo-900 via-purple-500 to-pink-900 ...   ">    
+                <div className='h-screen flex flex-col items-center justify-center '>
                     {/*PHRASES*/}
                     <h1 className="text-center text-white text-4xl">{Phrases[randomPhrase].phrase}</h1>
                     {/*-----------------------*/}
@@ -42,8 +37,7 @@ const DashboardA = (props) => {
                     <div className='text-center'>
                     <SearchNetflix/>
                 </div>
-                </div>
-                
+                </div>         
             </div>
             
         </div>
